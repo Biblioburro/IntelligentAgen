@@ -10,6 +10,6 @@ public static void main(String[] args) {
 	m1.randomizeMaze();
 	//m1.printSolutions();
 	m1.printMaze();
-	System.out.println("This was added remotely potentially from a different computer");
+	
 }
 }

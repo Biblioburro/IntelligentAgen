@@ -49,11 +49,11 @@ public class Maze {
 		
 	}
 	//provides the ability for to check whether maze is present or not
-	public boolean isThereMaze(int x, int y) {
+	public int isThereMaze(int x, int y) {
 		if(maze[x][y] == 1) {
-			return true;
+			return 1;
 		}else {
-			return false;
+			return 0;
 		}
 	}
 	public int sizeOfMazeX() {
